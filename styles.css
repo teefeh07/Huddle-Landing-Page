@@ -205,9 +205,7 @@ input {
   font-weight: 400;
 }
 
-/* .fa-brands {
-  margin-right: 2px;
-} */
+
 
 .section2-footer > h3 {
   text-transform: uppercase;
@@ -250,5 +248,17 @@ input {
   }
  .ready-to-build{
   margin-top: 50px;
+ }
+ section > img{
+  order: -1;
+  margin-top: 30px;
+ }
+ section > div > p{
+  margin-bottom: 30px;
+ }
+ .social-media{
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 3px
  }
 }
