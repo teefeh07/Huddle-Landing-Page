@@ -216,6 +216,11 @@ input {
   font-family: Open Sans;
   font-weight: 400;
 }
+.social-media{
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 3px
+ }
 
 @media (max-width: 700px) {
   .mockups {
@@ -261,4 +266,10 @@ input {
   flex-wrap: nowrap;
   gap: 3px
  }
+ section > div > h4 {
+  font-family: Open Sans;
+  font-weight: 700;
+
+  font-size: 30px;
+}
 }
