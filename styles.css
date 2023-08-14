@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.icon {
+  width: 100px;
+}
+.trial-btn {
+  color: hsl(321, 100%, 78%);
+  background-color: white;
+  border: 2px solid hsl(321, 100%, 78%);
+  padding: 3px 7px;
+  border-radius: 5px;
+  font-family: Open Sans;
+  font-weight: 400;
+}
+
+.main-section {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-section > h2 {
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 30px;
+}
+.main-section > p {
+  /* background-color: blue; */
+  width: 410px;
+  margin-top: 20px;
+  font-family: Open Sans;
+  font-weight: 400;
+}
+
+.get-started-btn {
+  color: white;
+  background-color: hsl(322, 100%, 66%);
+  padding: 10px 40px;
+  margin-top: 25px;
+  border: none;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  font-family: Open Sans;
+  font-weight: 700;
+
+  /* border-radius: none; */
+}
+
+.mockups {
+  width: 600px;
+}
+.sub-section {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  flex-wrap: wrap;
+  /* border: 2px solid red; */
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+.sub-section > div > h3 {
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 40px;
+}
+.sub-section > div > p {
+  font-family: Open Sans;
+  font-weight: 400;
+}
+
+.curvy-section-top {
+  width: 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+section > div {
+  flex-basis: 300px;
+}
+section > img {
+  width: 300px;
+}
+section > div > h3 {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.ready-to-build {
+  margin-bottom: 50px;
+}
+section > div > p {
+  font-family: Open Sans;
+  font-weight: 400;
+}
+.one {
+  background-color: hsl(207, 100%, 98%);
+}
+
+.three {
+  background-color: hsl(207, 100%, 98%);
+}
+section > div > h4 {
+  font-family: Open Sans;
+  font-weight: 700;
+
+  font-size: 18px;
+}
+footer {
+  background-color: hsl(192, 100%, 9%);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding-bottom: 50px;
+}
+.section1-footer {
+  display: flex;
+  flex-direction: column;
+  /* background-color: red; */
+  justify-content: center;
+  align-items: center;
+  flex-basis: 50%;
+  row-gap: 15px;
+}
+.huddle {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.section1-footer > p {
+  width: 300px;
+}
+.telephone,
+.email {
+  display: flex;
+  gap: 10px;
+}
+
+.section2-footer {
+  /* background-color: green; */
+  display: flex;
+  flex-basis: 50%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.section2-footer > p {
+  width: 300px;
+}
+input {
+  padding: 5px 15px;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+}
+.subscribe {
+  display: flex;
+}
+.subscribe-btn {
+  color: white;
+  background-color: hsl(322, 100%, 66%);
+  border: none;
+  padding: 4px 12px;
+  margin-left: 20px;
+  font-family: Open Sans;
+  font-weight: 700;
+  border-radius: 2px;
+}
+
+.huddle > h3 {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 30px;
+}
+.section1-footer > p,
+.telephone > div > p,
+.email > div > p {
+  font-family: Open Sans;
+  font-weight: 400;
+}
+
+.fa-brands {
+  margin-right: 10px;
+}
+
+.section2-footer > h3 {
+  text-transform: uppercase;
+  font-family: Poppins;
+  font-weight: 700;
+}
+.section2-footer > p {
+  font-family: Open Sans;
+  font-weight: 400;
+}
+
+@media (max-width: 700px) {
+  .mockups {
+    width: 300px;
+  }
+  .main-section > h2 {
+    width: 70%;
+  }
+  .get-started-btn {
+    padding: 10px 30px;
+  }
+  .sub-section {
+    gap: 50px;
+  }
+}
