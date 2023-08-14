@@ -206,7 +206,7 @@ input {
 }
 
 .fa-brands {
-  margin-right: 10px;
+  margin-right: 2px;
 }
 
 .section2-footer > h3 {
@@ -232,4 +232,23 @@ input {
   .sub-section {
     gap: 50px;
   }
+  .main-section > p {
+    
+    width: 250px;
+    margin-top: 20px;
+    font-family: Open Sans;
+    font-weight: 400;
+  }
+  .section2-footer{
+    order: -1;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+  .subscribe{
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+ .ready-to-build{
+  margin-top: 50px;
+ }
 }
