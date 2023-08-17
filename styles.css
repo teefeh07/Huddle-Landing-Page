@@ -222,7 +222,7 @@ input {
   gap: 3px
  }
 
-@media (max-width: 700px) {
+@media (max-width: 750px) {
   .mockups {
     width: 300px;
   }
@@ -271,5 +271,23 @@ input {
   font-weight: 700;
 
   font-size: 30px;
+}
+.main-section > h2 {
+ 
+  font-size: 25px;
+  justify-self: center;
+  align-self: center;
+}
+.section2-footer > h3{
+  align-self: flex-start;
+}
+.subscribe {
+  justify-content: flex-end;
+}
+.huddle{
+  align-self: flex-start;
+}
+.telephone, .email, .social-media{
+  align-self: flex-start;
 }
 }
